@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.rumput {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: url("/static/images/rumput.svg") 100%;
+  background-size: cover;
+}
+
+.pengen h1 {
+  position: relative;
+  margin-left: 110px;
+  margin-top: auto;
+  max-width: 200px;
+}
+
+.one img {
+  top: 100px;
+  width: 10%;
+  height: 10%;
+  margin-right: 10px; /* Sesuaikan jarak antara logo dan teks */
+}
+.two img {
+  width: 50%;
+  height: 50%;
+}
+
+.tree img {
+  width: 50%;
+  height: 50%;
+}
+.four img {
+  width: 50%;
+  height: 50%;
+}
+
+.veve img {
+  margin-top: 30px;
+  position: relative;
+  width: 7%;
+  height: 7%;
+}
+
+.flex {
+  display: flex;
+}
